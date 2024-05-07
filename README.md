@@ -1,1 +1,3 @@
 # RunUser
+
+Lightweight .NET application, which signals a video playing to Microsoft Windows without playing anything. The application is not visible in the task bar. If switched to foreground, a Window with a rotating waiting circle is shown. If minimized, the application remains silent in the notification area (where it can also be terminated from via right mouse click). As long as Windows assumes a video is played, it will not activate a screen saver or power-saving settings. Therefore the application can be used as support for continuously playing presentations or applications running full screen in theater mode.
